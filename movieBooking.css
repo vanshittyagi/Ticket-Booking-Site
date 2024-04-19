@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: rgb(229, 229, 229);
+  font-family: "Fredoka", sans-serif;
+}
+.movie-points,
+.movie-tagline {
+  color: #9c9c9c;
+}
+
+.movieDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  height: 100vh;
+}
+
+.title-rating h1 {
+  font-size: 35px;
+}
+.votes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-rating p {
+  font-size: 25px;
+}
+.title-rating span {
+  color: yellow;
+  margin-left: 10px;
+}
+.movie-tagline {
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.details {
+  width: 40%;
+}
+
+.description {
+  margin: 5px 0 20px 0;
+}
+
+.ticket-btn {
+  padding: 12px 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #0283fb;
+  color: white;
+  text-decoration: none;
+}
+.ticket-btn-container {
+  margin-top: 30px;
+}
